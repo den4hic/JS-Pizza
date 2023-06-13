@@ -1,0 +1,82 @@
+header div div {
+    display: inline-block;
+}
+header div div p {
+    display: inline-block;
+    color: #9f9f9f;
+    margin: 0;
+}
+.schedule {
+    font-size: 12px;
+    margin-left: 25px;
+}
+.number {
+    font-size: 20px
+}
+.additional-info {
+    font-size: 17px;
+    margin-left: 25px;
+}
+.schedule, .number, .additional-info {
+    margin-top: 10px;
+}
+.info-name {
+    margin-top: 5px;
+    margin-bottom: 12px;
+    color: white;
+}
+.header-auth {
+    float: right;
+}
+.info-div {
+    margin-left: 100px;
+    margin-right: 20px;
+}
+body {
+    margin: 0;
+}
+.authorization-button {
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 13px 8px 13px;
+    color: white;
+    background-color: #e5a949;
+}
+.header-section {
+    width: 100%;
+    height: 85px;
+    background-color: #333331;
+    opacity: 0.9;
+}
+.right-section {
+    float: right;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: lightgreen;
+}
+.right-placeholder {
+    float: right;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: orange;
+}
+.gui-section {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.main-main {
+    position: static;
+    display: flex;
+}
+.main-section {
+    background-color: #fffff5;
+    width: 100%;
+    height: 100px;
+}
